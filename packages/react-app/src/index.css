@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.gradient_btn {
+  background: linear-gradient(
+    103.91deg,
+    #e05177 21.01%,
+    rgba(78, 104, 139, 0.8) 100%
+  );
+}
+
+.pink_gradient {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+
+  background: #e06668;
+  filter: blur(200px);
+}
+
+.blue_gradient {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+
+  background: #18b2de;
+  filter: blur(200px);
+}
+
+.gradient-border {
+  background: linear-gradient(
+    168.82deg,
+    #b647ba 1.7%,
+    rgba(102, 81, 140, 0) 27.12%,
+    rgba(103, 107, 220, 0) 61.28%,
+    #747d80 99.52%
+  );
+}
